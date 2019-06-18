@@ -24,14 +24,5 @@ mock.onGet('/login').reply(config => {
    
 });
 
-// 例子
-/*
-axios.get('/user?ID=12345')
-  .then(function (response) {
-    console.log(response);
-  })
-  .catch(function (error) {
-    console.log(error);
-  });
-*/
+
 export default axios;	//注意暴露axios
